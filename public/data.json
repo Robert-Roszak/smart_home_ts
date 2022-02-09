@@ -1,0 +1,26 @@
+{
+  "SmartBulb": {
+    "type": "bulb",
+    "id": "bulb_1",
+    "name": "Living room",
+    "connectionState": "connected",
+    "isTurnedOn": true,
+    "brightness": 45,
+    "color": "#fff"
+  },
+  "SmartOutlet": {
+    "type": "outlet",
+    "id": "outlet_1",
+    "name": "Kitchen smart outlet",
+    "connectionState": "poorConnection",
+    "isTurnedOn": true,
+    "powerConsumption": 2300
+  },
+  "SmartTemperatureSensor": {
+    "type": "temperatureSensor",
+    "id": "temperature_sensor_1",
+    "name": "Livingroom temperature sensor",
+    "connectionState": "disconnected",
+    "temperature": 0
+  }
+}
